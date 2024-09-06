@@ -1,11 +1,10 @@
-@media(min-width: 551px) {
+/* @media screen and (min-width:451px) { */
 
 
 
 
 body{
     background-color: rgb(54, 51, 51);
-    display: none;
 }
 
 
@@ -185,4 +184,5 @@ button{
     background-color: rgb(24, 145, 24);
 }
 
-}
+
+

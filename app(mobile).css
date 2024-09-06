@@ -1,8 +1,9 @@
-@media screen and (max-width:550px){
+@media screen and (max-width:451px){
 
 
 body{
     background-color: rgb(54, 51, 51);
+    /* background-color: white; */
 }
 
 
