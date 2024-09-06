@@ -1,0 +1,151 @@
+@media screen and (max-width:450px){
+
+
+body{
+    background-color: rgb(54, 51, 51);
+}
+
+
+:root{
+    --button_colour:rgb(128, 128, 128,0.2);
+    --button_text_colour:white;
+}
+
+
+button{
+    all: unset;
+}
+
+
+*::-webkit-scrollbar{
+    display:none;
+}
+
+.main_container{
+    max-width: 88em;
+    min-width: 12em;
+    margin: auto;
+    padding: 0em;
+}
+
+
+.section_1_design{
+    height: 40em;
+}
+
+.section_2_design{
+    height: 40em;
+    width: 23em;
+}
+
+
+
+
+
+
+
+.upper_div_design{
+}
+
+#upper_div{
+}
+
+
+#store_expression{
+    all: unset;
+    font-size: 1.5em;
+    text-align: end;
+    margin-right: 0.8em;
+}
+
+#store_result{
+    all: unset;
+    text-align: end;
+    font-size: 2.5em;
+    margin-right: 0.5em;
+}
+
+
+
+.lower_div_design{
+    width: calc(100%-1em);
+    height: 70%;
+}
+
+.upper_line_design{
+}
+
+.upper_line_elments_design{
+    width: 4em;
+    height: 2.5em;
+    background-color: var(--button_colour);
+    color:var(--button_text_colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.upper_line_elments_design p{
+    font-size: 1em;
+}    
+
+
+
+.mid_section_design{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid_section_elements_design{
+    width: 4em;
+    height: 4em;
+    background-color: var(--button_colour);
+    color:var(--button_text_colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.mid_section_elements_design p{
+    font-size: 1em;
+}
+
+.mid_section_1_element_design:first-child{
+    background-color: rgb(255, 0, 0,0.2); 
+    color: red;
+}
+
+.operation_elements_design{
+    background-color: rgb(205, 137, 11);
+}
+
+.lower_line_design{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5em;
+}
+
+
+
+.lower_line_elements_design{
+    width: 9.5em;
+    height: 4em;
+    background-color: var(--button_colour);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.lower_line_elements_design p {
+    font-size: 1em; 
+}
+
+.lower_line_elements_design:nth-child(n+2){
+    width: 4em;
+    border-radius: 12px;
+}
+.lower_line_elements_design:last-child{
+    background-color: rgb(24, 145, 24);
+}}
