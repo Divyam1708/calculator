@@ -4,7 +4,7 @@
 
 
 body{
-    background-color: rgb(54, 51, 51);
+    background-color: black;
 }
 
 
@@ -33,12 +33,13 @@ button{
 
 .section_1_design{
     height: 52em;
-    border: 5px solid greenyellow;
-    border: 5px solid red;
+    /* border: 5px solid greenyellow; */
+    /* border: 5px solid red; */
     border-radius: 10px;
     display: flex;
     justify-content: center;
     padding-block: 0.1em;
+    background-color: black;
 }
 
 .section_2_design{
@@ -50,6 +51,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
 }
 
 
@@ -70,6 +72,8 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
+    width: 90%;
 }
 
 
@@ -89,6 +93,9 @@ button{
     text-align: end;
     font-size: 4.5em;
     margin-right: 0.5em;
+    overflow-x: scroll;
+    text-wrap: nowrap;
+    width: 90%;
 }
 
 
