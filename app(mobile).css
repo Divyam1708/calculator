@@ -1,4 +1,4 @@
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
 
 
 body{
@@ -8,7 +8,6 @@ body{
 
 :root{
     --button_colour:rgb(128, 128, 128,0.2);
-    --button_colour:rgba(255, 0, 0, 0.9);
     --button_text_colour:white;
 }
 
